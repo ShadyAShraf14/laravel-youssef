@@ -30,7 +30,7 @@
       @foreach ($products as $product)
           
       <tr>
-        <td class="text-center">{{$product->id}}</td>
+        <td class="text-center">{{$product->Id}}</td>
         <td class="text-center">{{$product->name}}</td>
         <td class="text-center">{{$product->price}}</td>
         <td class="text-center"><img src="{{$product->image}}" height="50" alt=""></td>
